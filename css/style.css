@@ -1,6 +1,7 @@
 /* header */
 .header-block{
     background-image: url(../images/banner.png);
+    width: 100%;
     padding: 30px 140px;
 }
 .nav-and-title{
@@ -10,6 +11,10 @@
 .page-title-txt{
     font-size: 14px;
     color: white;
+}
+.bar-icon{
+    color: white;
+    display: none;
 }
 .navigation{
     display: flex;
@@ -43,7 +48,7 @@
 }
 /* section 1 */
 .map-block{
-    margin-top: 50px;
+    margin: 50px 140px;
     display: flex;
     justify-content: center;
 }
@@ -81,6 +86,7 @@
     color: #CECECE;
     background-color: #F8F8F8;
     border: #E8E8E8;
+    margin-bottom: 16px;
 }
 .right-container{
     display: flex;
