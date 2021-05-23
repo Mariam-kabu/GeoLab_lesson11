@@ -48,20 +48,16 @@
         <div class="contact-form">
             <div class="left-container">
                 <form action="">
-                    <input class="description-input" type="text" id="form-description" placeholder="Description">
+                    <textarea class="description-input" placeholder="Description" name="description" id="form-description" cols="30" rows="10"></textarea>
                 </form>
             </div>
             <div class="right-container">
-                <form action="">
-                    <input class="info-input" type="text" id="form-subject" placeholder="Subject">
+                <form class="form2" action="">
+                    <input class="info-input" type="text" id="form-subject" placeholder="Subject" required>
+                    <input class="info-input" type="text" id="form-name" placeholder="Name/Surname" required>
+                    <input class="info-input" type="email" id="form-mail" placeholder="Email" required>
+                    <button type="submit" class="submit"> Send </button>
                 </form>
-                <form action="">
-                    <input class="info-input" type="text" id="form-name" placeholder="Name/Surname">
-                </form>
-                <form action="">
-                    <input class="info-input" type="email" id="form-mail" placeholder="Email">
-                </form>
-                <button type="submit" class="submit">Send</button>
             </div>
         </div>
         <div class="contact-box">

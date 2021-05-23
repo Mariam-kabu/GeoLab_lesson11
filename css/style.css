@@ -85,12 +85,13 @@
     height: 288px;
     color: #CECECE;
     background-color: #F8F8F8;
-    border: #E8E8E8;
+    border-color: #E8E8E8;
     margin-bottom: 16px;
 }
 .right-container{
     display: flex;
     flex-direction: column;
+    margin-left: 16px;
 }
 .info-input{
     width: 342px;
@@ -98,7 +99,7 @@
     margin-bottom: 16px;
     color: #CECECE;
     background-color: #F8F8F8;
-    border: #E8E8E8;
+    border-color: #E8E8E8;
 }
 .submit{
     width: 342px;
