@@ -87,6 +87,7 @@
     background-color: #F8F8F8;
     border-color: #E8E8E8;
     margin-bottom: 16px;
+    resize: none;
 }
 .right-container{
     display: flex;
@@ -106,7 +107,7 @@
     height: 60px;
     color:white;
     background-color: #5863F8;
-    border: #5863F8;
+    border-color: #5863F8;
 }
 .contact-box{
     display: flex;
