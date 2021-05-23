@@ -36,15 +36,27 @@
 }
 .contact{
     margin-top: 96px;
+}
+.contact-1{
+    margin-top: 14px;
     margin-bottom: 96px;
+    display: flex;
 }
 .contact-h{
     font-size: 42px;
     color: white;
 }
-.home-contact-h{
+.home-h, .contacth{
     font-size: 14px;
     color: white;
+}
+.home-h::after{
+    content: '';
+    background-color: white;
+    width: 2px;
+    height: 14px;
+    display: inline-block;
+    margin: 0 16px;
 }
 /* section 1 */
 .map-block{
